@@ -33,7 +33,7 @@ elif question.upper() =='Y':
         spy_status_online = False
         spy_age = input('What is your age? ')
 
-        if spy_age>10 and spy_age<50:
+        if spy_age>12 and spy_age<50:
             print 'You age is perfect to be a spy.'
             spy_rating = input('What is rating of spy? ')
 
