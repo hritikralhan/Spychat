@@ -1,6 +1,6 @@
 from spy_details import spy_name,spy_age,spy_rating
 print 'Hello!'
-print 'Let\'s get started'
+print 'Let\'s get started..'
 
 def start_chat(spy_name,spy_age,spy_rating):
     show_menu = True
