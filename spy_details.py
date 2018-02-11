@@ -1,4 +1,6 @@
-spy_name =  ' Mr. Hritik Ralhan'
-spy_age = 20
-spy_rating = 5
-random_variable = 25
+spy = {
+  'name': 'Mr. Bond',
+  'age': 24,
+  'rating': 2.5,
+  'is_online': True
+}
