@@ -106,7 +106,7 @@ elif question.upper() =='Y':
                 print 'Useless spy'
 
             spy_status_online = True
-            print 'Authentication complete. Welcome ' + spy['name'] + ' age: ' +  str(spy['age']) + ' and rating of: ' + str(spy['rating'] + ' Proud to have you onboard'
+            print 'Authentication complete. Welcome ' + spy['name'] + ' age: ' +  str(spy['age']) + ' and rating of: ' + str(spy['rating']) + ' Proud to have you onboard'
             start_chat(spy['name'], spy['age'], spy['rating'])
 
         else:
