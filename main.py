@@ -39,7 +39,7 @@ def add_friend():
         'is_online': True
     }
     frnd['name'] = raw_input("Write your frnd's name: ")
-    frnd_sal = raw_input('Mr or Miss: ')
+    frnd_sal = raw_input(' Mr or Miss: ')
     frnd['name'] = frnd_sal  + " "  + frnd['name']
     frnd['age'] = input('Write the age of your frnd: ')
     frnd['rating'] = input('Write the rating of frnd: ')
